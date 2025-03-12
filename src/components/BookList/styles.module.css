@@ -1,0 +1,12 @@
+.bookList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.innerList {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}

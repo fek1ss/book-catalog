@@ -1,0 +1,75 @@
+.selectedBooks {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.bookList {
+    width: 50%;
+}
+
+.author {
+    background-color: var(--main-background-color);
+    margin: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    color: rgb(221, 210, 210);
+    cursor: pointer;
+    border-radius: 10px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &:hover {
+        color: white;
+    }
+}
+
+.selectedList {
+    height: 450px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 380px;
+    background-color: var(--main-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.title {
+    text-align: center;
+    border: none;
+    padding: 5px;
+    font-family: 'Times New Roman', serif;
+}
+
+.description {
+    background-color: aliceblue;
+    height: 100px;
+    border: none;
+    color: gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.authorBook {
+    border-bottom: 1px dotted black;
+    padding-bottom: 5px;
+}
+
+.btnUpdate {
+    padding: 2px 8px;
+    border: none;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,227 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "name": "Stephen King"
+    },
+    {
+      "id": "2",
+      "name": "J.K. Rowling"
+    },
+    {
+      "id": "3",
+      "name": "George Orwell"
+    },
+    {
+      "id": "4",
+      "name": "Fyodor Dostoevsky"
+    },
+    {
+      "id": "5",
+      "name": "Leo Tolstoy"
+    },
+    {
+      "id": "6",
+      "name": "Jane Austen"
+    },
+    {
+      "id": "7",
+      "name": "Ernest Hemingway"
+    },
+    {
+      "id": "8",
+      "name": "Mark Twain"
+    },
+    {
+      "id": "9",
+      "name": "Ray Bradbury"
+    },
+    {
+      "id": "10",
+      "name": "Agatha Christie"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "authorId": "1",
+      "author": "Stephen King",
+      "title": "Мизери",
+      "description": "Story of an obsessed fan."
+    },
+    {
+      "id": "2",
+      "authorId": "1",
+      "author": "Stephen King",
+      "title": "Salem's Lot",
+      "description": "A town with vampires."
+    },
+    {
+      "id": "4",
+      "authorId": "2",
+      "author": "J.K. Rowling",
+      "title": "Harry Potter 1",
+      "description": "A boy discovers magic."
+    },
+    {
+      "id": "5",
+      "authorId": "2",
+      "author": "J.K. Rowling",
+      "title": "Harry Potter 2",
+      "description": "Mysteries in Hogwarts."
+    },
+    {
+      "id": "6",
+      "authorId": "2",
+      "author": "J.K. Rowling",
+      "title": "Harry Potter Philososcriy camen",
+      "description": "harry potter"
+    },
+    {
+      "id": "7",
+      "authorId": "3",
+      "author": "George Orwell",
+      "title": "2025",
+      "description": "Dystopian totalitarian future."
+    },
+    {
+      "id": "8",
+      "authorId": "3",
+      "author": "George Orwell",
+      "title": "Animal Farm",
+      "description": "Political allegory with animals."
+    },
+    {
+      "id": "9",
+      "authorId": "4",
+      "author": "Fyodor Dostoevsky",
+      "title": "Crime and Punishment",
+      "description": "Murder and guilt."
+    },
+    {
+      "id": "10",
+      "authorId": "4",
+      "author": "Fyodor Dostoevsky",
+      "title": "The Idiot",
+      "description": "A kind-hearted prince."
+    },
+    {
+      "id": "11",
+      "authorId": "4",
+      "author": "Fyodor Dostoevsky",
+      "title": "The Brothers Karamazov",
+      "description": "Family and philosophy."
+    },
+    {
+      "id": "12",
+      "authorId": "5",
+      "author": "Leo Tolstoy",
+      "title": "War and Peace",
+      "description": "Napoleon’s invasion of Russia."
+    },
+    {
+      "id": "13",
+      "authorId": "5",
+      "author": "Leo Tolstoy",
+      "title": "Anna Karenina",
+      "description": "Love and betrayal."
+    },
+    {
+      "id": "14",
+      "authorId": "5",
+      "author": "Leo Tolstoy",
+      "title": "Resurrection",
+      "description": "A nobleman's redemption."
+    },
+    {
+      "id": "15",
+      "authorId": "6",
+      "author": "Jane Austen",
+      "title": "Pride and Prejudice",
+      "description": "A love story."
+    },
+    {
+      "id": "16",
+      "authorId": "6",
+      "author": "Jane Austen",
+      "title": "Sense and Sensibility",
+      "description": "Sisters and romance."
+    },
+    {
+      "id": "17",
+      "authorId": "7",
+      "author": "Ernest Hemingway",
+      "title": "The Old Man and the Sea",
+      "description": "A fisherman’s struggle."
+    },
+    {
+      "id": "18",
+      "authorId": "7",
+      "author": "Ernest Hemingway",
+      "title": "A Farewell to Arms",
+      "description": "Love in war."
+    },
+    {
+      "id": "19",
+      "authorId": "8",
+      "author": "Mark Twain",
+      "title": "Adventures of Huckleberry Finn",
+      "description": "Journey on the Mississippi."
+    },
+    {
+      "id": "20",
+      "authorId": "8",
+      "author": "Mark Twain",
+      "title": "The Prince and the Pauper",
+      "description": "Switched lives."
+    },
+    {
+      "id": "21",
+      "authorId": "8",
+      "author": "Mark Twain",
+      "title": "Tom Sawyer",
+      "description": "Boyhood adventures."
+    },
+    {
+      "id": "22",
+      "authorId": "9",
+      "author": "Ray Bradbury",
+      "title": "Fahrenheit 451",
+      "description": "Books are banned."
+    },
+    {
+      "id": "23",
+      "authorId": "9",
+      "author": "Ray Bradbury",
+      "title": "The Martian Chronicles",
+      "description": "Stories about Mars."
+    },
+    {
+      "id": "24",
+      "authorId": "10",
+      "author": "Agatha Christie",
+      "title": "Murder on the Orient Express",
+      "description": "A train murder mystery."
+    },
+    {
+      "id": "25",
+      "authorId": "10",
+      "author": "Agatha Christie",
+      "title": "And Then There Were None",
+      "description": "Ten strangers on an island."
+    },
+    {
+      "id": "26",
+      "authorId": "10",
+      "author": "Agatha Christie",
+      "title": "The Murder of Roger Ackroyd",
+      "description": "Poirot investigates."
+    },
+    {
+      "id": "f93c",
+      "title": "Лев",
+      "description": "фваы",
+      "author": "Leo Tolstoy"
+    }
+  ]
+}

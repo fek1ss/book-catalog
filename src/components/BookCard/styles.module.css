@@ -1,0 +1,41 @@
+.bookCard {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 300px;
+    background-color: var(--main-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.title {
+    border: none;
+    padding: 5px;
+    font-family: 'Times New Roman', serif;
+}
+
+.description {
+    background-color: aliceblue;
+    height: 100px;
+    border: none;
+    color: gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.author {
+    border-bottom: 1px dotted black;
+    padding-bottom: 5px;
+}
+
+.delete {
+    background-color: var(--main-background-color);
+    border: none;
+    padding: 10px 5px;
+}
+
+.delete:hover {
+    background-color: #376e38;
+}
