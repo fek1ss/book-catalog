@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
 import BookList from '../../components/BookList/BookList';
 import AddBook from '../../components/AddBook/AddBook';
-// import SearchBooks from './../../components/SearchBooks';
 
 const ShowBooks = () => {
   const [books, setBooks] = useState([]);
-  //   const [title, setTitle] = useState('');
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -24,13 +22,6 @@ const ShowBooks = () => {
     //         .then(data => setBooks(data));
     fetchBooks();
   }, []);
-
-  //   useEffect(() => {
-  //     fetch(`http://localhost:3001/books?title=${title}`)
-  //       .then(response => response.json())
-  //       .then(newBook => updateList(newBook));
-  //     console.log(title);
-  //   }, [title]);
 
   const updateList = newBook => {
     setBooks(prev => [...prev, newBook]);
@@ -57,7 +48,6 @@ const ShowBooks = () => {
   return (
     <>
       <AddBook updateList={updateList} />
-      {/* <SearchBooks setBooks={setBooks} setTitle={setTitle} /> */}
       <BookList books={books} handleDelete={handleDelete} />
     </>
   );
